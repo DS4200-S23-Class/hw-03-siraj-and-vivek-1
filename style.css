@@ -2,6 +2,14 @@
     font: arial
 }
 
+head {
+  font-family: arial;
+}
+
+body {
+  font-family: arial;
+}
+
 .column {
     float: left;
     width: 50%;
