@@ -1,17 +1,17 @@
 
 
-let count = 0
+let color = 'white';
+
 function buttonClicked() {
-  console.log("button was clicked!");
-  count ++;
-  txt = "Number of times button clicked: "
-  let concat = txt.concat(count);
-
-  //let newText = "Button was clicked";
-
-  // select the element
-  let buttonDiv = document.getElementById("button-div");
-
-  buttonDiv.innerHTML = concat;
+  	let elements = document.getElementsByClassName('column'); // get all elements
+  if (color == "white") {
+    for(var i = 0; i < elements.length; i++){
+		elements[i].style.backgroundColor = "blue";
+	  }
+  }
+  else {
+    for(var i = 0; i < elements.length; i++){
+		elements[i].style.backgroundColor = "white";
+  }
+  }
 }
-
