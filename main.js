@@ -1,17 +1,14 @@
+// initializes color variable to black
+let color = 'black';
 
-
-let color = 'white';
-
+// function for when button is clicked
 function buttonClicked() {
-  	let elements = document.getElementsByClassName('column'); // get all elements
-  if (color == "white") {
-    for(var i = 0; i < elements.length; i++){
-		elements[i].style.backgroundColor = "blue";
-	  }
-  }
-  else {
-    for(var i = 0; i < elements.length; i++){
-		elements[i].style.backgroundColor = "white";
-  }
-  }
+    // select the element
+    if (color == 'black') {
+        document.body.style.backgroundColor = "lightblue";
+    }
+    else {
+        document.body.style.backgroundColor = 'white';
+    }
+    color = document.body.style.backgroundColor;
 }
