@@ -6,12 +6,19 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>hw-03</title>
 </head>
-
-
 <body>
     <div>
-        <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
+        <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>   
+       <div>
+
+    <button type="button" onClick="buttonClicked(
+    )"> click me! </button>
+
+    <div id="button-div" class="gen">
+        Number of times button clicked: 0
+
     </div>
+</div>
     <div class="row">
         <div class="column">
             <h2>test 1</h2>
@@ -22,6 +29,10 @@
             <div class="vis2">
                 <p id="p1">This is vis2:</p>
                 <img src="img/vis2.png" alt="DOM">
+            </div>
+            <div class="vis3">
+                <p id="p1">This is vis3:</p>
+                <img src="img/vis3.png" alt="DOM">
             </div>
         </div>
         
@@ -37,6 +48,33 @@
                     Vivek will handle this but I am tired rn
                 </p>
             </div>
+            <div class="vis3">
+                <p id="p1">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+                <h3>Marks</h3>
+            <ul>
+                <li>Area</li>
+            </ul>
+
+            <h3>Channels</h3>
+            <ul>
+                <li>Position = Horizontal and Vertical</li>
+                <ul>
+                    <li>Horizontal represents positions</li>
+                    <li>Vertical represents total compensation</li>
+                    <li>This mappiing choice is good because there are two areas of interest in the visualization.
+                    </li>
+                </ul>
+                <li>Color</li>
+                <ul>
+                    <li>The color represents the gender identity of employees.</li>
+                    <li>This is a good mapping choice because pink and blue are typically associated with the male and female genders. Using these colors make it easy for users to understand what the graph is trying to convey.
+                    </li>
+                </ul>
+            </ul>
+            </div>
         </div>
 
       </div>
@@ -50,6 +88,7 @@
         </ul>
 
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
