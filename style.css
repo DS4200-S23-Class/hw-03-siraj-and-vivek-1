@@ -6,6 +6,10 @@ head {
   font-family: arial;
 }
 
+h1 {
+  text-align: center;
+}
+
 body {
   font-family: arial;
 }
