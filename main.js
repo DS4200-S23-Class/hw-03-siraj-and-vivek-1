@@ -3,7 +3,7 @@ let color = 'white';
 
 function buttonClicked() {
     // select the element
-    if (color == 'black') {
+    if (color == 'white') {
         document.body.style.backgroundColor = "lightblue";
     }
     else {
